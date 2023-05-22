@@ -1,0 +1,59 @@
+.next {
+
+ 
+  overflow:hidden;
+    margin-bottom: 1rem;
+}
+
+.next .product p {
+    margin-bottom: 1rem;
+    font-size: 2em;
+}
+
+
+.next .product h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+    color: darkgray;
+}
+
+.next h2 {
+    margin-bottom: 1rem;
+  }
+
+.next img {
+    max-width: 100%;
+    width: 20rem;
+    height: 20rem;
+}
+
+.next .text {
+    max-width: 100%;
+
+    /**/
+    float:left; 
+    margin-left:2rem;
+    width: 20rem;
+}
+
+.next .product  {
+    float:right; 
+    margin-right:20px;
+    width: 20rem;
+}
+blockquote {
+    border-left: 2px solid #dddddd;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1.4286;
+
+    padding: 0 0 0 20px;
+    font-size: 1.5em;
+    margin-left: 5px;
+
+    
+}
+
+
