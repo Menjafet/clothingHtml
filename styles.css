@@ -110,7 +110,9 @@ nav ul li a {
   position: absolute;
   top: 1.5em;
   right: 1em;
-
+}
+.open{
+  height: 100vh;
 }
 
 @media all and (max-width: 720px) {
@@ -118,6 +120,11 @@ nav ul li a {
     flex-direction: column;
     align-items: flex-start;
   }
+  nav {
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+  };
    li  {
     display: block;
     text-align: center;
