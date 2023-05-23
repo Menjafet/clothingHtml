@@ -114,6 +114,9 @@ nav ul li a {
 .open{
   height: 100vh;
 }
+.hidden{
+  display: none;
+}
 
 @media all and (max-width: 720px) {
   #container {
@@ -124,6 +127,7 @@ nav ul li a {
     height: 0;
     width: 100%;
     overflow: hidden;
+    transition: 250ms height ease-in-out;
   };
    li  {
     display: block;
