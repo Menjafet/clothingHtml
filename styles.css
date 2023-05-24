@@ -85,6 +85,9 @@ a {
   justify-content: space-between;
   margin: 0 auto;
 }
+header div a{
+  text-decoration: none;
+}
 
 nav {
   list-style: none;
@@ -128,7 +131,14 @@ nav ul li a {
     width: 100%;
     overflow: hidden;
     transition: 250ms height ease-in-out;
-  };
+    margin-left: 1rem;
+    display: inline-block;
+  }
+  nav ul li {
+    margin-left: 1rem;
+    display: inline-block;
+    align-items: center;
+  }
    li  {
     display: block;
     text-align: center;
