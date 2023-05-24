@@ -132,11 +132,13 @@ nav ul li a {
     overflow: hidden;
     transition: 250ms height ease-in-out;
     margin-left: 1rem;
-    display: inline-block;
+    display: block;
   }
   nav ul li {
     margin-left: 1rem;
-    display: inline-block;
+    display: block;
+    align-items: center;
+    padding: 1em;
     align-items: center;
   }
    li  {
